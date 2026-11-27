@@ -1,3 +1,4 @@
+
 ---
 permalink: /
 title: ""
@@ -17,241 +18,135 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-# 👋🏻 Welcome!
+# 👋🏻 About Me
 
-Hello! I am **Xinrui Chen (陈新睿)**, a master's student in Artificial Intelligence at the **Hangzhou Institute for Advanced Study, University of Chinese Academy of Sciences (UCAS)**, under the supervision of Professor [Ou Wu](https://www.scholat.com/wuou). I received my bachelor's degree in Software Engineering from **Northeastern University**.
+Hello! I am **Qing Liu (刘庆)**, an M.S. student in Artificial Intelligence at the **Hangzhou Institute for Advanced Study, University of Chinese Academy of Sciences (UCAS)**. I received my bachelor's degree in Data Science and Big Data Technology from **Beijing Sport University**.
 
-My research interests include **LLM post-training, agentic reinforcement learning, and recursive self-improvement (RSI)**, with a focus on efficient adaptation, model safety, and knowledge updating. My work has been accepted at **NeurIPS, ICLR, and EMNLP**. I am also exploring how agentic systems can enable continuous model improvement through interaction and experience.
+My research interests include **LLM post-training, knowledge editing, and efficient inference**. I focus on improving the effectiveness, reliability, and efficiency of large language models through data-centric fine-tuning, knowledge editing, and inference optimization.
 
-**I am currently seeking industry opportunities and Ph.D. positions in large language models. Please feel free to contact me via email ([chenxinrui25@mails.ucas.ac.cn](mailto:chenxinrui25@mails.ucas.ac.cn), [chnirui224@gmail.com](mailto:chnirui224@gmail.com)).**
+My research has been published at **NeurIPS, ACL, EMNLP, and Neurocomputing**.
+
+I am currently seeking **internship opportunities in LLM algorithms** and future opportunities in algorithm engineering. Please feel free to contact me via email ([liuqing25@mails.ucas.ac.cn](mailto:liuqing25@mails.ucas.ac.cn)).
+
+[Google Scholar](https://scholar.google.com/citations?user=Yzqz7woAAAAJ&hl=zh-CN) · [GitHub](https://github.com/luciabcd)
+
+# 🔬 Research Interests
+
+- **LLM Post-training:** Data-centric fine-tuning, sample weighting, and adaptation-stability trade-offs.
+- **Knowledge Editing:** Reliable model editing under conflicting and inconsistent knowledge.
+- **Efficient Inference:** Memory-efficient LLM inference and KV cache optimization.
 
 # 🔥 News
 
-- *2026.10*: 🏅 Received the **National Scholarship (Graduate)** at UCAS.
-- *2026.09*: 🎉🎉 **Two papers** accepted at **NeurIPS 2026**. *(Efficient LLM Fine-tuning & Data-centric Adaptation)*
-- *2026.08*: 🎉🎉 **Two papers** accepted at **EMNLP 2026**. *(Safe LLM Fine-tuning & Relation Replacement Editing)*
-- *2026.01*: 🎉 **One paper** accepted at **ICLR 2026**. *(Robust LLM Unlearning & Model Safety)*
-- *2025.09*: 🎓 Began my M.S. studies in Artificial Intelligence at the **HIAS, UCAS**.
-- *2025.06*: 🎓 Graduated from **Northeastern University** with a B.Eng. in Software Engineering.
-- *2024.09*: 🎉 Received a recommendation-based admission to the **HIAS, UCAS**, to pursue graduate study under Prof. Ou Wu.
+- *2026*: 🎉 **"DRIVE: Fine-tuning via Data Contribution- and Diversity-aware Weighting with Prior Regularization"** was accepted at **NeurIPS 2026**.
+- *2026*: 🎉 **"AlphaToken: Decoupling Adaptation and Stability for Path-Aware Response Token Valuation in LLM Post-Training"** was accepted at **EMNLP 2026**.
+- *2026*: 🎉 **"AlphaEdit+: Model Editing in the Presence of Conflicting and Inconsistent Knowledge"** was accepted at **ACL 2026**.
+- *2026*: 🎉 **"R²Edit: Mastering Relation Replacement Editing via Target-Smoothed Forgetting and Self-Paced Learning"** was accepted at **EMNLP 2026**.
+- *2025*: 🎉 Published the first-author paper **"Low-rank tensor recovery via jointing the non-convex regularization and deep prior"** in **Neurocomputing**.
 
 # 📝 Publications
 
 <div class='paper-box'>
 <div class='paper-box-image'>
-<div>
-<div class="badge">NeurIPS 2026</div>
-<img src='images/dualsft.png' alt="DualSFT framework" width="100%">
-</div>
-</div>
-<div class='paper-box-text' markdown="1">
-
-**[One Algorithm, Two Goals: Dual Scoring for Parameter and Data Selection in LLM Fine-Tuning](https://neurips.cc/virtual/2026/loc/sydney/poster/149252) (<span style="color: #d93025; font-weight: bold;">CCF-A</span>, First Author)**
-
-**Xinrui Chen**, Liu Yang, Ou Wu<sup>*</sup>
-
-**Keywords:** Efficient Fine-tuning · Joint Data–Parameter Selection
-
-- Proposed **DualSFT**, a one-shot dual-scoring framework that jointly selects trainable parameters and training samples under a shared validation objective, deriving both selection signals from a unified gradient-interaction matrix.
-
-</div>
-</div>
-
-<div class='paper-box'>
-<div class='paper-box-image'>
-<div>
-<div class="badge">ICLR 2026</div>
-<img src='images/port.png' alt="PoRT framework" width="100%">
-</div>
-</div>
-<div class='paper-box-text' markdown="1">
-
-**[Robust LLM Unlearning via Post Judgment and Multi-round Thinking](https://proceedings.iclr.cc/paper_files/paper/2026/hash/72c12e48c6135762f56bf188cd2479d2-Abstract-Conference.html) (<span style="color: #d93025; font-weight: bold;">CCF-A</span>, First Author)**
-
-**Xinrui Chen**, Xu Cao, Jianhao Zhang, Pinlong Zhao, Di Gao, Ou Wu<sup>*</sup>
-
-**Keywords:** Robust Unlearning · Adversarial Defense
-
-- Proposed **PoRT**, a robust unlearning framework that integrates dynamic input cleaning, joint post-judgment of queries and responses, and selective multi-round self-correction to defend against adversarial attacks.
-
-</div>
-</div>
-
-<div class='paper-box'>
-<div class='paper-box-image'>
-<div>
-<div class="badge">EMNLP 2026</div>
-<img src='images/dualselect.png' alt="DualSelect framework" width="100%">
-</div>
-</div>
-<div class='paper-box-text' markdown="1">
-
-**[Two to Tango: Coupled Task–Reference Selection for Safe LLM Fine-Tuning](https://aclanthology.org/2026.emnlp-main.862/) (<span style="color: #d93025; font-weight: bold;">CCF-B</span>, First Author)**
-
-**Xinrui Chen**, Jianhao Zhang, Ou Wu<sup>*</sup>, Di Gao
-
-**Keywords:** Safe Fine-tuning · Task–Reference Selection
-
-- Proposed **DualSelect**, a coupled task–reference selection framework that identifies task-conditioned safety references and selects compatible task samples through entropy-regularized scoring and reference-gradient correction.
-
-</div>
-</div>
-
-<div class='paper-box'>
-<div class='paper-box-image'>
-<div>
-<div class="badge">EMNLP 2026</div>
-<img src='images/r2-edit.png' alt="R2Edit framework" width="100%">
-</div>
-</div>
-<div class='paper-box-text' markdown="1">
-
-**[R²Edit: Mastering Relation Replacement Editing via Target-Smoothed Forgetting and Self-Paced Learning](https://aclanthology.org/2026.emnlp-main.869/) (<span style="color: #d93025; font-weight: bold;">CCF-B</span>, Co-first Author)**
-
-Xu Cao<sup>‡</sup>, **Xinrui Chen**<sup>‡</sup>, Qing Liu, Mengyang Li, Ou Wu<sup>*</sup>, Yi Du
-
-**Keywords:** Knowledge Editing · Relation Replacement
-
-- Proposed **R²Edit** and ReEditBench for relation-replacement editing, combining target-smoothed forgetting to suppress obsolete relations with curriculum-guided self-paced learning to introduce new relations.
-
-</div>
-</div>
-
-<div class='paper-box'>
-<div class='paper-box-image'>
-<div>
-<div class="badge">NeurIPS 2026</div>
 <img src='images/drive.png' alt="DRIVE framework" width="100%">
 </div>
-</div>
 <div class='paper-box-text' markdown="1">
 
-**[DRIVE: Fine-tuning via Data Contribution- and Diversity-aware Weighting with Prior Regularization](https://neurips.cc/virtual/2026/loc/sydney/poster/151453) (<span style="color: #d93025; font-weight: bold;">CCF-A</span>, Second Author)**
+**DRIVE: Fine-tuning via Data Contribution- and Diversity-aware Weighting with Prior Regularization** (<span style="color: #d93025; font-weight: bold;">NeurIPS 2026, CCF-A, Accepted, First Author</span>)
 
-Qing Liu, **Xinrui Chen**, Yi Du<sup>*</sup>, Ou Wu, Weiyao Zhu
+**Q. Liu**, X. Chen, et al.
 
-**Keywords:** Data-centric Fine-tuning · Diversity-aware Weighting
+**Keywords:** Data-centric Fine-tuning · Diversity-aware Weighting · Knowledge Retention
 
-- Proposed **DRIVE**, a differentiable data-weighting framework that integrates Shapley-based contribution decomposition, covariance-based diversity modeling, and prior regularization to balance knowledge retention and task adaptation.
+- Proposed **DRIVE**, a data-weighting framework that combines Shapley-based contribution decomposition, covariance-based diversity modeling, and KL prior regularization to balance task adaptation and knowledge retention.
+- On MetaMathQA, DRIVE improves the aggregate scores of three models by **1.43–1.68 percentage points** over their respective strongest baselines.
 
 </div>
 </div>
 
 <div class='paper-box'>
 <div class='paper-box-image'>
-<div>
-<div class="badge">Under Review</div>
-<img src='images/hilore.png' alt="HiLoRe framework" width="100%">
-</div>
+<img src='images/alphatoken.png' alt="AlphaToken framework" width="100%">
 </div>
 <div class='paper-box-text' markdown="1">
 
-**[HiLoRe: What to Store, Compress, or Recompute for Efficient GRPO Training](https://arxiv.org/abs/2609.33570) (First Author)**
+**AlphaToken: Decoupling Adaptation and Stability for Path-Aware Response Token Valuation in LLM Post-Training** (<span style="color: #d93025; font-weight: bold;">EMNLP 2026, CCF-B, Accepted, First Author</span>)
 
-**Xinrui Chen**, Mengyang Li, Ou Wu<sup>*</sup>, Ji Zhang
+**Q. Liu**, O. Wu, et al.
 
-**Keywords:** Efficient GRPO · Activation Management
+**Keywords:** Token Valuation · LLM Post-training · Model Stability
 
-- Proposed **HiLoRe**, an update-aware activation-recovery framework for GRPO training that coordinates high-precision storage, low-precision compression, and deterministic recomputation under memory and approximation-risk constraints.
+- Proposed **AlphaToken**, a path-aware response-token valuation framework that jointly models direct gradient effects and downstream causal effects in autoregressive generation.
+- Introduced a pretrained-model-anchored Fisher drift proxy to evaluate model stability without retained training data, and extended Ghost Dot-Product for efficient token-level valuation.
+- Achieved aggregate score improvements of **1.54, 2.80, and 2.51 percentage points** on Llama, Gemma, and Qwen, respectively.
 
 </div>
 </div>
 
 <div class='paper-box'>
 <div class='paper-box-image'>
-<div>
-<div class="badge">Under Review</div>
-<img src='images/SID.png' alt="SID framework" width="100%">
-</div>
+<img src='images/alphaedit.png' alt="AlphaEdit+ framework" width="100%">
 </div>
 <div class='paper-box-text' markdown="1">
 
-**Sample-wise Interactions: Dissecting the Stability-Plasticity Dilemma in LLM Fine-tuning** **(First Author)**
+**AlphaEdit+: Model Editing in the Presence of Conflicting and Inconsistent Knowledge** (<span style="color: #d93025; font-weight: bold;">ACL 2026, CCF-A, Accepted, Co-first Author</span>)
 
-**Xinrui Chen**
+**Q. Liu**<sup>‡</sup>, J. Zhang<sup>‡</sup>, et al.
 
-**Keywords:** Sample-wise Interactions · Stability–Plasticity
+**Keywords:** Knowledge Editing · Knowledge Conflicts · Model Reliability
 
-- Proposed **SID**, a sample-wise interaction framework for characterizing how individual training examples jointly shape optimization stability and task adaptation during LLM fine-tuning.
+- Proposed a knowledge-editing framework combining **null-space constraint relaxation, historical editing constraint weighting, and target smoothing** to improve editing robustness under conflicting and inconsistent knowledge.
+- On LLaMA3, the editing success rate increases from **87.75% to 95.55%**, achieving a **7.80 percentage-point improvement**.
 
 </div>
 </div>
 
 <div class='paper-box'>
 <div class='paper-box-image'>
-<div>
-<div class="badge">Under Review</div>
-<img src='images/pask.png' alt="PASK framework" width="100%">
-</div>
+<img src='images/r2-edit.png' alt="R2Edit framework" width="100%">
 </div>
 <div class='paper-box-text' markdown="1">
 
-**[Parser Transitions Already Reveal Structural Responsibility: KV Persistence for Structured Generation](https://arxiv.org/abs/2608.28276) (Second Author, Corresponding Author)**
+**R²Edit: Mastering Relation Replacement Editing via Target-Smoothed Forgetting and Self-Paced Learning** (<span style="color: #d93025; font-weight: bold;">EMNLP 2026, CCF-B, Accepted, Third Author</span>)
 
-Linze Wu, **Xinrui Chen**<sup>*</sup>
+X. Cao, X. Chen, **Q. Liu**, et al.
 
-**Keywords:** LLM Inference · KV Cache Optimization · Structured Generation
+**Keywords:** Knowledge Editing · Relation Replacement · Self-Paced Learning
 
-- Proposed **PASK**, a parser-aware KV-persistence framework that reuses parser transitions to identify structurally critical tokens and allocate KV retention across layer groups under a fixed memory budget.
-
-</div>
-</div>
-
-<div class='paper-box'>
-<div class='paper-box-image'>
-<div>
-<div class="badge">Under Review</div>
-<img src='images/bridge.png' alt="BRIDGE framework" width="100%">
-</div>
-</div>
-<div class='paper-box-text' markdown="1">
-
-**[Token Utility Is Selection-Conditioned: Coupled Selection of Prompt Context and Response Supervision for Instruction Tuning](https://arxiv.org/abs/2609.22943) (Second Author)**
-
-Can Wu, **Xinrui Chen**, Ou Wu<sup>*</sup>, Yi Du
-
-**Keywords:** Instruction Tuning · Prompt–Response Selection
-
-- Proposed **BRIDGE**, a coupled token-selection framework that jointly selects prompt context and response supervision by modeling selection-conditioned utility under the opposite side's retained subset, with budgeted alternating selection and structure-aware projection.
+- Constructed **ReEditBench**, a benchmark for relation-replacement editing, and proposed a two-stage framework combining target-smoothed forgetting and self-paced learning.
+- The method first suppresses obsolete relations and then progressively introduces new relations from easy to difficult samples.
+- Compared with AlphaEdit, the relation-replacement success rate on LLaMA3 increases from **52.18% to 81.71%**, while the old-relation retention rate on GPT2-XL decreases from **91.31% to 48.78%**.
 
 </div>
 </div>
 
-# 📝 Patents
+### Journal Publications
 
-- **A Large Language Model Unlearning Method, System, and Medium Based on Post-filtering and Repeated Thinking**, <span style="color: #d93025; font-weight: bold;">Invention Patent Application (Accepted)</span>, P.R. China Patent Application No. 202610119333.9 (2026.01).
+**Low-rank tensor recovery via jointing the non-convex regularization and deep prior** (<span style="color: #d93025; font-weight: bold;">Neurocomputing, 648:130610, 2025, JCR Q1, First Author</span>)
 
-  **Xinrui Chen**, Ou Wu
+**Q. Liu**, et al.
 
-- **A Lightweight LLM Inference Method, System, and Medium Based on Dictionary-level Token Masking**, <span style="color: #d93025; font-weight: bold;">Invention Patent Application (Accepted)</span>, P.R. China Patent Application No. 202610607888.8 (2026.05).
+**Keywords:** Low-rank Tensor Recovery · Non-convex Regularization · Deep Prior
 
-  Ou Wu, Shuxin Liu, **Xinrui Chen**, Yi Du
+---
 
-# 🏅 Honors and Awards
-
-- *2026.10*, **National Scholarship (Graduate)**.
-- *2026.09*, First-Class Scholarship, University of Chinese Academy of Sciences (UCAS).
-- *2026.06*, Outstanding Model Three-Good Student Award, University of Chinese Academy of Sciences (UCAS).
-- *2026.06*, Three-Good Student Award, University of Chinese Academy of Sciences (UCAS).
-- *2024.05*, Honorable Mention, Interdisciplinary Contest in Modeling (ICM).
-- *2024.01*, Meritorious Winner, 9th ShuWei Cup International Undergraduate Mathematical Contest in Modeling.
-- *2023.09*, Second-Class Scholarship, Northeastern University.
-- *2023.09*, Outstanding Student, Northeastern University.
-- *2023.09*, Third-Class Scholarship, Beike.
-- *2023.06*, Third Prize (Type C), National English Competition for College Students (NECCS).
-- *2023.05*, Honorable Mention, Mathematical Contest in Modeling (MCM).
-- *2023.05*, Third Place, Northeastern University Campus Debate Competition.
-- *2022.09*, **National Scholarship (Undergraduate)**.
-- *2022.09*, First-Class Scholarship, Northeastern University.
-- *2022.09*, Academic Excellence Award, School of Software, Northeastern University.
-- *2022.09*, Outstanding Model Communist Youth League Member, Northeastern University.
+<sup>‡</sup> Equal contribution.
 
 # 📖 Education
 
-- **2025.09 – 2028.06 (Expected):** M.S. in Artificial Intelligence, University of Chinese Academy of Sciences.
-- **2021.09 – 2025.06:** B.Eng. in Software Engineering, Northeastern University.
+- **2025.09 – 2028.06 (Expected):** M.S. in Artificial Intelligence, **University of Chinese Academy of Sciences (UCAS)**, Hangzhou Institute for Advanced Study.
+- **2021.09 – 2025.06:** B.S. in Data Science and Big Data Technology, **Beijing Sport University**, School of Sports Engineering.
 
-# 💼 Internship Experience
+# 🏅 Honors and Awards
 
-- *Oct. 2024 – Jan. 2025*, Software Development Intern, **CARIZON (Beijing) Technology Co., Ltd.**
+- **National Encouragement Scholarship**.
+- **Third Prize**, Computer Design Competition.
 
+# 💻 Technical Skills
+
+- **Programming:** Python, PyTorch, Linux, and Git.
+- **LLM Post-training:** SFT, DPO, GRPO, and FSDP-based distributed training.
+- **Training Frameworks:** LLaMAFactory and DeepSpeed.
+- **Model Experience:** Training and fine-tuning LLaMA, Qwen, and Gemma models.
+- **Development Tools:** Codex-assisted programming.
+- **English Proficiency:** CET-4: 575; CET-6: 485.
