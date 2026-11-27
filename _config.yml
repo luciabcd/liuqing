@@ -8,7 +8,9 @@
 # Site Settings
 title                    : "Qing Liu (刘庆)"
 description              : "Research interests include LLM post-training, Agentic RL, and RSI."
-repository               :"luciabcd/liuqing"
+repository               : "luciabcd/liuqing"
+url                      : "https://luciabcd.github.io"
+baseurl                  : "/liuqing"
 google_scholar_stats_use_cdn : true
 
 # google analytics
